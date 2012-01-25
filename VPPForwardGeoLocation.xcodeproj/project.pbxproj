@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574A4A7D14D0546D0024E1D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A4A7C14D0546D0024E1D8 /* UIKit.framework */; };
+		574A4A7F14D0546D0024E1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A4A7E14D0546D0024E1D8 /* Foundation.framework */; };
+		574A4A8114D0546D0024E1D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A4A8014D0546D0024E1D8 /* CoreGraphics.framework */; };
+		574A4A8714D0546D0024E1D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 574A4A8514D0546D0024E1D8 /* InfoPlist.strings */; };
+		574A4A8914D0546D0024E1D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4A8814D0546D0024E1D8 /* main.m */; };
+		574A4A8D14D0546D0024E1D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4A8C14D0546D0024E1D8 /* AppDelegate.m */; };
+		574A4A9C14D054A60024E1D8 /* VPPForwardGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4A9614D054A60024E1D8 /* VPPForwardGeoLocation.m */; };
+		574A4A9D14D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4A9814D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.m */; };
+		574A4A9E14D054A60024E1D8 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4A9B14D054A60024E1D8 /* XMLReader.m */; };
+		574A4AA414D057F50024E1D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A4AA314D057F50024E1D8 /* MapKit.framework */; };
+		574A4AA614D0580F0024E1D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A4AA514D0580F0024E1D8 /* CoreLocation.framework */; };
+		574A4AAA14D058520024E1D8 /* ForwardGeoLocExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4AA814D058520024E1D8 /* ForwardGeoLocExample.m */; };
+		574A4AAB14D058520024E1D8 /* ForwardGeoLocExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574A4AA914D058520024E1D8 /* ForwardGeoLocExample.xib */; };
+		574A4ABA14D05DD30024E1D8 /* VPPMapCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4AAF14D05DD30024E1D8 /* VPPMapCluster.m */; };
+		574A4ABB14D05DD30024E1D8 /* VPPMapClusterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4AB114D05DD30024E1D8 /* VPPMapClusterHelper.m */; };
+		574A4ABC14D05DD30024E1D8 /* VPPMapClusterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4AB314D05DD30024E1D8 /* VPPMapClusterView.m */; };
+		574A4ABD14D05DD30024E1D8 /* VPPMapAnnotationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4AB514D05DD30024E1D8 /* VPPMapAnnotationExample.m */; };
+		574A4ABE14D05DD30024E1D8 /* VPPMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 574A4AB814D05DD30024E1D8 /* VPPMapHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574A4A7814D0546D0024E1D8 /* VPPForwardGeoLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPPForwardGeoLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A4A7C14D0546D0024E1D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		574A4A7E14D0546D0024E1D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		574A4A8014D0546D0024E1D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		574A4A8414D0546D0024E1D8 /* VPPForwardGeoLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPPForwardGeoLocation-Info.plist"; sourceTree = "<group>"; };
+		574A4A8614D0546D0024E1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		574A4A8814D0546D0024E1D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		574A4A8A14D0546D0024E1D8 /* VPPForwardGeoLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPPForwardGeoLocation-Prefix.pch"; sourceTree = "<group>"; };
+		574A4A8B14D0546D0024E1D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		574A4A8C14D0546D0024E1D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		574A4A9514D054A60024E1D8 /* VPPForwardGeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPForwardGeoLocation.h; sourceTree = "<group>"; };
+		574A4A9614D054A60024E1D8 /* VPPForwardGeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPForwardGeoLocation.m; sourceTree = "<group>"; };
+		574A4A9714D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPForwardGeoLocationAnnotation.h; sourceTree = "<group>"; };
+		574A4A9814D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPForwardGeoLocationAnnotation.m; sourceTree = "<group>"; };
+		574A4A9A14D054A60024E1D8 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		574A4A9B14D054A60024E1D8 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		574A4AA314D057F50024E1D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		574A4AA514D0580F0024E1D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		574A4AA714D058520024E1D8 /* ForwardGeoLocExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardGeoLocExample.h; sourceTree = "<group>"; };
+		574A4AA814D058520024E1D8 /* ForwardGeoLocExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardGeoLocExample.m; sourceTree = "<group>"; };
+		574A4AA914D058520024E1D8 /* ForwardGeoLocExample.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForwardGeoLocExample.xib; sourceTree = "<group>"; };
+		574A4AAE14D05DD30024E1D8 /* VPPMapCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapCluster.h; sourceTree = "<group>"; };
+		574A4AAF14D05DD30024E1D8 /* VPPMapCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPMapCluster.m; sourceTree = "<group>"; };
+		574A4AB014D05DD30024E1D8 /* VPPMapClusterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapClusterHelper.h; sourceTree = "<group>"; };
+		574A4AB114D05DD30024E1D8 /* VPPMapClusterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPMapClusterHelper.m; sourceTree = "<group>"; };
+		574A4AB214D05DD30024E1D8 /* VPPMapClusterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapClusterView.h; sourceTree = "<group>"; };
+		574A4AB314D05DD30024E1D8 /* VPPMapClusterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPMapClusterView.m; sourceTree = "<group>"; };
+		574A4AB414D05DD30024E1D8 /* VPPMapAnnotationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapAnnotationExample.h; sourceTree = "<group>"; };
+		574A4AB514D05DD30024E1D8 /* VPPMapAnnotationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPMapAnnotationExample.m; sourceTree = "<group>"; };
+		574A4AB614D05DD30024E1D8 /* VPPMapCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapCustomAnnotation.h; sourceTree = "<group>"; };
+		574A4AB714D05DD30024E1D8 /* VPPMapHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapHelper.h; sourceTree = "<group>"; };
+		574A4AB814D05DD30024E1D8 /* VPPMapHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPMapHelper.m; sourceTree = "<group>"; };
+		574A4AB914D05DD30024E1D8 /* VPPMapHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPMapHelperDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574A4A7514D0546D0024E1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A4AA614D0580F0024E1D8 /* CoreLocation.framework in Frameworks */,
+				574A4AA414D057F50024E1D8 /* MapKit.framework in Frameworks */,
+				574A4A7D14D0546D0024E1D8 /* UIKit.framework in Frameworks */,
+				574A4A7F14D0546D0024E1D8 /* Foundation.framework in Frameworks */,
+				574A4A8114D0546D0024E1D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574A4A6D14D0546D0024E1D8 = {
+			isa = PBXGroup;
+			children = (
+				574A4A8214D0546D0024E1D8 /* VPPForwardGeoLocation */,
+				574A4A7B14D0546D0024E1D8 /* Frameworks */,
+				574A4A7914D0546D0024E1D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		574A4A7914D0546D0024E1D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574A4A7814D0546D0024E1D8 /* VPPForwardGeoLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574A4A7B14D0546D0024E1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				574A4AA514D0580F0024E1D8 /* CoreLocation.framework */,
+				574A4AA314D057F50024E1D8 /* MapKit.framework */,
+				574A4A7C14D0546D0024E1D8 /* UIKit.framework */,
+				574A4A7E14D0546D0024E1D8 /* Foundation.framework */,
+				574A4A8014D0546D0024E1D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		574A4A8214D0546D0024E1D8 /* VPPForwardGeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				574A4A9314D054A60024E1D8 /* Libraries */,
+				574A4A8B14D0546D0024E1D8 /* AppDelegate.h */,
+				574A4A8C14D0546D0024E1D8 /* AppDelegate.m */,
+				574A4AA714D058520024E1D8 /* ForwardGeoLocExample.h */,
+				574A4AA814D058520024E1D8 /* ForwardGeoLocExample.m */,
+				574A4AA914D058520024E1D8 /* ForwardGeoLocExample.xib */,
+				574A4A8314D0546D0024E1D8 /* Supporting Files */,
+			);
+			path = VPPForwardGeoLocation;
+			sourceTree = "<group>";
+		};
+		574A4A8314D0546D0024E1D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				574A4A8414D0546D0024E1D8 /* VPPForwardGeoLocation-Info.plist */,
+				574A4A8514D0546D0024E1D8 /* InfoPlist.strings */,
+				574A4A8814D0546D0024E1D8 /* main.m */,
+				574A4A8A14D0546D0024E1D8 /* VPPForwardGeoLocation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		574A4A9314D054A60024E1D8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				574A4AAC14D05DD30024E1D8 /* VPPMap */,
+				574A4A9414D054A60024E1D8 /* VPPForwardGeoLocation */,
+				574A4A9914D054A60024E1D8 /* XMLParser */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		574A4A9414D054A60024E1D8 /* VPPForwardGeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				574A4A9514D054A60024E1D8 /* VPPForwardGeoLocation.h */,
+				574A4A9614D054A60024E1D8 /* VPPForwardGeoLocation.m */,
+				574A4A9714D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.h */,
+				574A4A9814D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.m */,
+			);
+			path = VPPForwardGeoLocation;
+			sourceTree = "<group>";
+		};
+		574A4A9914D054A60024E1D8 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				574A4A9A14D054A60024E1D8 /* XMLReader.h */,
+				574A4A9B14D054A60024E1D8 /* XMLReader.m */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		574A4AAC14D05DD30024E1D8 /* VPPMap */ = {
+			isa = PBXGroup;
+			children = (
+				574A4AAD14D05DD30024E1D8 /* Clustering */,
+				574A4AB414D05DD30024E1D8 /* VPPMapAnnotationExample.h */,
+				574A4AB514D05DD30024E1D8 /* VPPMapAnnotationExample.m */,
+				574A4AB614D05DD30024E1D8 /* VPPMapCustomAnnotation.h */,
+				574A4AB714D05DD30024E1D8 /* VPPMapHelper.h */,
+				574A4AB814D05DD30024E1D8 /* VPPMapHelper.m */,
+				574A4AB914D05DD30024E1D8 /* VPPMapHelperDelegate.h */,
+			);
+			path = VPPMap;
+			sourceTree = "<group>";
+		};
+		574A4AAD14D05DD30024E1D8 /* Clustering */ = {
+			isa = PBXGroup;
+			children = (
+				574A4AAE14D05DD30024E1D8 /* VPPMapCluster.h */,
+				574A4AAF14D05DD30024E1D8 /* VPPMapCluster.m */,
+				574A4AB014D05DD30024E1D8 /* VPPMapClusterHelper.h */,
+				574A4AB114D05DD30024E1D8 /* VPPMapClusterHelper.m */,
+				574A4AB214D05DD30024E1D8 /* VPPMapClusterView.h */,
+				574A4AB314D05DD30024E1D8 /* VPPMapClusterView.m */,
+			);
+			path = Clustering;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574A4A7714D0546D0024E1D8 /* VPPForwardGeoLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574A4A9014D0546D0024E1D8 /* Build configuration list for PBXNativeTarget "VPPForwardGeoLocation" */;
+			buildPhases = (
+				574A4A7414D0546D0024E1D8 /* Sources */,
+				574A4A7514D0546D0024E1D8 /* Frameworks */,
+				574A4A7614D0546D0024E1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPPForwardGeoLocation;
+			productName = VPPForwardGeoLocation;
+			productReference = 574A4A7814D0546D0024E1D8 /* VPPForwardGeoLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574A4A6F14D0546D0024E1D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 574A4A7214D0546D0024E1D8 /* Build configuration list for PBXProject "VPPForwardGeoLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 574A4A6D14D0546D0024E1D8;
+			productRefGroup = 574A4A7914D0546D0024E1D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574A4A7714D0546D0024E1D8 /* VPPForwardGeoLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574A4A7614D0546D0024E1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A4A8714D0546D0024E1D8 /* InfoPlist.strings in Resources */,
+				574A4AAB14D058520024E1D8 /* ForwardGeoLocExample.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574A4A7414D0546D0024E1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A4A8914D0546D0024E1D8 /* main.m in Sources */,
+				574A4A8D14D0546D0024E1D8 /* AppDelegate.m in Sources */,
+				574A4A9C14D054A60024E1D8 /* VPPForwardGeoLocation.m in Sources */,
+				574A4A9D14D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.m in Sources */,
+				574A4A9E14D054A60024E1D8 /* XMLReader.m in Sources */,
+				574A4AAA14D058520024E1D8 /* ForwardGeoLocExample.m in Sources */,
+				574A4ABA14D05DD30024E1D8 /* VPPMapCluster.m in Sources */,
+				574A4ABB14D05DD30024E1D8 /* VPPMapClusterHelper.m in Sources */,
+				574A4ABC14D05DD30024E1D8 /* VPPMapClusterView.m in Sources */,
+				574A4ABD14D05DD30024E1D8 /* VPPMapAnnotationExample.m in Sources */,
+				574A4ABE14D05DD30024E1D8 /* VPPMapHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		574A4A8514D0546D0024E1D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574A4A8614D0546D0024E1D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574A4A8E14D0546D0024E1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		574A4A8F14D0546D0024E1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574A4A9114D0546D0024E1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPPForwardGeoLocation/VPPForwardGeoLocation-Prefix.pch";
+				INFOPLIST_FILE = "VPPForwardGeoLocation/VPPForwardGeoLocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		574A4A9214D0546D0024E1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPPForwardGeoLocation/VPPForwardGeoLocation-Prefix.pch";
+				INFOPLIST_FILE = "VPPForwardGeoLocation/VPPForwardGeoLocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574A4A7214D0546D0024E1D8 /* Build configuration list for PBXProject "VPPForwardGeoLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A4A8E14D0546D0024E1D8 /* Debug */,
+				574A4A8F14D0546D0024E1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574A4A9014D0546D0024E1D8 /* Build configuration list for PBXNativeTarget "VPPForwardGeoLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A4A9114D0546D0024E1D8 /* Debug */,
+				574A4A9214D0546D0024E1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 574A4A6F14D0546D0024E1D8 /* Project object */;
+}
