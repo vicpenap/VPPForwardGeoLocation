@@ -1,7 +1,7 @@
 .DS_Store
-VPPForwardGeoLocation.xcodeproj/xcuserdata/
-VPPForwardGeoLocation.xcodeproj/project.xcworkspace/xcuserdata/
+VPPForwardGeoLocationExample.xcodeproj/xcuserdata/
+VPPForwardGeoLocationExample.xcodeproj/project.xcworkspace/xcuserdata/
 build/
-VPPForwardGeoLocation.xcodeproj/*.mode1v3
-VPPForwardGeoLocation.xcodeproj/*.pbxuser
+VPPForwardGeoLocationExample.xcodeproj/*.mode1v3
+VPPForwardGeoLocationExample.xcodeproj/*.pbxuser
 
