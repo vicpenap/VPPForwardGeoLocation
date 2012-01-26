@@ -82,7 +82,7 @@
 		574A4A6D14D0546D0024E1D8 = {
 			isa = PBXGroup;
 			children = (
-				574A4A8214D0546D0024E1D8 /* VPPForwardGeoLocation */,
+				574A4A8214D0546D0024E1D8 /* VPPForwardGeoLocationExample */,
 				574A4A7B14D0546D0024E1D8 /* Frameworks */,
 				574A4A7914D0546D0024E1D8 /* Products */,
 			);
@@ -108,7 +108,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		574A4A8214D0546D0024E1D8 /* VPPForwardGeoLocation */ = {
+		574A4A8214D0546D0024E1D8 /* VPPForwardGeoLocationExample */ = {
 			isa = PBXGroup;
 			children = (
 				574A4A9314D054A60024E1D8 /* Libraries */,
@@ -119,7 +119,6 @@
 				574A4AA914D058520024E1D8 /* ForwardGeoLocExample.xib */,
 				574A4A8314D0546D0024E1D8 /* Supporting Files */,
 			);
-			name = VPPForwardGeoLocation;
 			path = VPPForwardGeoLocationExample;
 			sourceTree = "<group>";
 		};
