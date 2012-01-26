@@ -153,7 +153,7 @@
 				574A4A9814D054A60024E1D8 /* VPPForwardGeoLocationAnnotation.m */,
 			);
 			path = VPPForwardGeoLocation;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		574A4A9914D054A60024E1D8 /* XMLParser */ = {
 			isa = PBXGroup;
